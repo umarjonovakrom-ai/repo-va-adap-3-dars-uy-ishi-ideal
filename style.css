@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    
+
+}
+
+header{
+    padding: 73px 0;
+  background: #004047;
+  background: #014E56;
+;
+}
+
+.ota{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colo{
+    color: white;
+}
+
+.yorr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.ploki{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    
+}
+
+
+
+.but-ish{
+    width: 153px;
+    height: 48px;
+    background-color: #004047;
+    border: solid 2px white;
+    border-radius: 9999px;
+      color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.fontt{
+    color: white;
+    font-size: 64px;
+}
+
+.otaaa{
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding: 100px 130px;
+    
+
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+
+
+
+.oki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    width: 400px;
+    color: white;
+    padding-top: 30px;
+}
+
+.fofo{
+    font-size: 48px;
+    color: white;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.sec-1{
+    background-color: #014E56;
+    padding-top: 130px;
+    
+    
+}
+
+.otaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 167px 192px;
+}
+
+.child{
+    width: 350px;
+    height: 274.7258px;
+    background-color:  #012F34;
+    padding: 32px 24px;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.pppp{
+    color: #79C8C7;
+    margin-top: 15px;
+}
+   
+.ii{
+    color: white;
+    margin-top: 13px;
+}
+
+.pasgi{
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    background-color: #F67E7E;
+    padding-top: 20px;
+    justify-content: center;
+    position: absolute;
+  bottom: -28px;
+  right: 150px;
+    
+}
+
+.fop{
+    font-size: 48px;
+    color: white;
+}
+
+.sec-2{
+    margin: 0 auto;
+    background-color: #012F34;
+    padding: 100px;
+   
+}
+    
+.okm{
+    text-align: center;
+}
+ 
+
+.umumiy-ota{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+.oooo{
+    width: 130px;
+    height: 36.6237px;
+}
+
+.sec-3{
+    margin: 0 auto;
+    background-color: #F67E7E;
+
+}
+
+.iii{
+    width: 153px;
+    height: 48px;
+    border-radius: 9999px;
+    background-color: #F67E7E;
+    border: solid 2px #012F34;
+    color: #004047;
+    font-size: 18px;
+}
+
+.fofofo{
+    font-size: 48px;
+    color: #012F34;
+}
+
+.lkm{
+    display: flex;
+    justify-content: space-between;
+   padding: 76px 263px;
+}
+
+.sec-4{
+    margin: 0 auto;
+    background-color: #002529;
+}
+
+.fofofofo{
+    color: white;
+    font-size: 48px;
+}
+
+.vb{
+    display: flex;
+    justify-content: space-between;
+    padding:  48px 159px;
+}
+
+
+.fr{
+    margin-top: 40px;
+    color: white;
+}
+
+
+@media (max-width: 1047px) {
+    .otaa {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media(max-width:999px){
+
+
+.sec-1{
+     display: flex;
+    flex-direction: column;
+}
+
+.otaaa{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.otaa{
+    row-gap: 40px;
+}
+
+.fontt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fr{
+    text-align: center;
+}
+
+.ota{
+    padding: 20px 20px;
+}
+
+.sec-2{
+    width: 100%;
+}
+
+.sec-3{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+}
+
+}
+
+@media(max-width:841px){
+.otaa{
+    flex-direction: column;
+    row-gap: 40px;
+}
+.lkm{
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.otaa{
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.umumiy-ota{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.vb{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+}
